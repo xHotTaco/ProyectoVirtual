@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+
+    <div class="login-box">
+        <img class="avatar" src="img/taco.png" alt="Logo taco">
+        <h1>Login Here</h1>
+        <form action="Login.php" method="post">
+            <!-- Correo -->
+            <label for="correo">Email</label>
+            <input type="email" name="correo" id="correo" required="obligatorio" placeholder="Enter Email">
+            <!-- Contraseña -->
+            <label for="contra">Password</label>
+            <input type="password" name="contra" id="contra" required="obligatorio" placeholder="Enter Password">
+
+            <input type="submit" name="registrar" id="registrar" value="Log in">
+
+            <a href="Registro.html">No tienes cuenta?</a>
+        </form>
+    </div>
+    
+</body>
